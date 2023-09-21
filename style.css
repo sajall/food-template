@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+#navbar {
+  height: 55px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 3px 3px 8px 1px #888888;
+}
+#insidenav {
+  color: #000 !important;
+  letter-spacing: 4px;
+  padding-top: 17px;
+  padding-left: 20px;
+  width: 40%;
+}
+#items {
+  width: 30%;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+.items ul li {
+  cursor: pointer;
+}
+
+#hamburger img {
+  height: 675px;
+}
+#hamburger p {
+  font-size: 3em;
+  position: abolute;
+  /* position: absolute; */
+  margin-top: -75px;
+  color: #5a5c5f;
+  margin-left: 35px;
+}
+#second-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+#left-img {
+  padding-right: 30px;
+}
+#left-img img {
+  height: 600px;
+}
+
+#right-text {
+  width: 450px;
+  width: 500px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-left: 25px;
+}
+#right-text p {
+  text-align: left;
+}
+#right-text p.gray {
+  text-align: left;
+  color: #797575;
+}
+hr {
+  margin-top: 90px;
+  color: #eee;
+  width: 80%;
+  /* border: 1px solid #797575; */
+}
+#third-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+#left-text {
+  width: 549px;
+}
+#left-text h1 {
+  text-align: center;
+}
+#left-text h3 {
+  font-size: 20px;
+  margin-top: 50px;
+}
+#left-text p {
+  font-size: 14px;
+  color: #797575;
+}
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+}
+#footer span {
+  color: #607d8b;
+  font-weight: bold;
+  font-size: 20px;
+}
+#footer input {
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  margin-top: 10px;
+}
+#footer button {
+  width: 145px;
+  height: 40px;
+  margin-top: 25px;
+  border: none;
+}
+#footer button:hover {
+  background-color: #797575;
+  border: 1px solid black;
+}
+
+footer {
+  background-color: #797575;
+  margin-top: 100px;
+  text-align: center;
+  height: 100px;
+}
